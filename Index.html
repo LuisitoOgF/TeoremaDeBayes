@@ -24,8 +24,8 @@
         <h2 class="text-center mt-4">Calculadora de Bayes</h2>
         <div class="d-flex mt-3">
 
-            <div class="col bg-secondary">
-                <div class="input-group input-group-sm mb-3 ">
+            <div class="col bg-secondary p-4 ">
+                <div class="input-group input-group-sm mb-3" >
                     <div class="input-group-prepend ">
                         <span class="input-group-text bg-warning" id="inputGroup-sizing-sm">Pr(A1):</span>
                     </div>
@@ -53,11 +53,11 @@
                     <input type="number" class="form-control" aria-label="Pr(A4):"
                            aria-describedby="inputGroup-sizing-sm" id="ValA4" onchange="sumar(this.value);" />
                 </div>
-                <div class="alert alert-danger">
+                <div class="alert alert-danger p-4">
                     El total de los parametros de Pr(An) debe ser un total del 1% para realizar calculos. <span id="suma"></span>
                 </div>
             </div>
-            <div class="col bg-secondary">
+            <div class="col bg-secondary p-4 ">
                 <div class="input-group input-group-sm mb-3">
                     <div class="input-group-prepend">
                         <span class="input-group-text bg-info" id="inputGroup-sizing-sm">P(D/A1):</span>
@@ -90,7 +90,7 @@
                 <button onclick="calcular('verde')" id="btn1" disabled='true' class="btn btn-success">Calcular Pr(Ai/B)</button>
 
             </div>
-            <div class="col bg-secondary" id="resultados">
+            <div class="col bg-secondary p-4" id="resultados">
                 <div class="input-group input-group-sm mb-3">
                     <div class="input-group-prepend bg-success">
                         <span class="input-group-text bg-success" id="msj">=</span>
@@ -127,7 +127,7 @@
         <div align="center"><img src="img/FormulaBayes.PNG" width=50% alt="30%" /></div>
 
         <h2 class="text-center mt-4">Ejemplo de Practica a realizar.</h2>
-        <div align="center"><img src="img/Practica.PNG" =" width=80% alt="30%" /></div>
+        <div align="center"><img src="img/Practica.PNG" width=80% alt="30%" /></div>
 
     </div>
 
